@@ -1,17 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.cpp">
+      <Filter>03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001">
+      <UniqueIdentifier>{179f5473-49f7-44f1-b0cc-f3688a586476}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001\Example">
+      <UniqueIdentifier>{03331751-379d-4614-ad83-d0173b68113c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01">
+      <UniqueIdentifier>{1582424a-f9ae-4a69-920e-66b13f7501d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{b1a1cabb-a4da-494d-b486-f0dfd759ba84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global">
+      <UniqueIdentifier>{214a9d73-1a91-453e-81c4-17abad311413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Global\Define">
+      <UniqueIdentifier>{08e31ca4-9273-4885-b721-2dfed087d40d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.h">
+      <Filter>03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
+      <Filter>Classes\Global\Define</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
