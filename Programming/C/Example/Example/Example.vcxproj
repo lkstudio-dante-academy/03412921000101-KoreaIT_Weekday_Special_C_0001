@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.cpp" />
+    <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
     <ClCompile Include="Example.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.h">
+    <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">

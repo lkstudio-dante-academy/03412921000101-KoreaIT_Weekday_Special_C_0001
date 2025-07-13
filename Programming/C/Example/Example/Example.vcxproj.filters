@@ -2,20 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Example.cpp" />
-    <ClCompile Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.cpp">
-      <Filter>03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01</Filter>
+    <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
+      <Filter>Classes\Example\Example_01</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001">
-      <UniqueIdentifier>{179f5473-49f7-44f1-b0cc-f3688a586476}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001\Example">
-      <UniqueIdentifier>{03331751-379d-4614-ad83-d0173b68113c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01">
-      <UniqueIdentifier>{1582424a-f9ae-4a69-920e-66b13f7501d0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes">
       <UniqueIdentifier>{b1a1cabb-a4da-494d-b486-f0dfd759ba84}</UniqueIdentifier>
     </Filter>
@@ -25,13 +16,19 @@
     <Filter Include="Classes\Global\Define">
       <UniqueIdentifier>{08e31ca4-9273-4885-b721-2dfed087d40d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Example">
+      <UniqueIdentifier>{03331751-379d-4614-ad83-d0173b68113c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_01">
+      <UniqueIdentifier>{1582424a-f9ae-4a69-920e-66b13f7501d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01\E01Example_01.h">
-      <Filter>03412921000101-KoreaIT_Weekday_C_0001\Example\Example_01</Filter>
-    </ClInclude>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <Filter>Classes\Global\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
+      <Filter>Classes\Example\Example_01</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
