@@ -126,6 +126,7 @@
     <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp" />
     <ClCompile Include="Example.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +134,9 @@
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
+      <DeploymentContent>false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
   </ItemGroup>
