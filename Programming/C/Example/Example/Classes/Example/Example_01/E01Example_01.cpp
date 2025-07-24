@@ -18,7 +18,7 @@ int E01Example_01(int argc, char* args[])
 	* (+ 즉, scanf 함수를 활용하면 C/C++ 로 제작 된 프로그램과 사용자가 상호 작용하는 것이
 	* 가능하다.)
 	*/
-	scanf(" %[^\n]s", szStr);
+	scanf("%[^\n]s", szStr);
 
 	printf("입력 된 문자열 : %s\n", szStr);
 	return 0;

@@ -8,6 +8,9 @@
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
       <Filter>Classes\Training\Training_01</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_02\E01Example_02.cpp">
+      <Filter>Classes\Example\Example_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -31,6 +34,9 @@
     <Filter Include="Classes\Training\Training_01">
       <UniqueIdentifier>{f93bd422-5010-4da8-93db-bad0d828c23a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Example\Example_02">
+      <UniqueIdentifier>{dd6171c0-af4d-48e9-a9a6-817a67bc400e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -41,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <Filter>Classes\Training\Training_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_02\E01Example_02.h">
+      <Filter>Classes\Example\Example_02</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
