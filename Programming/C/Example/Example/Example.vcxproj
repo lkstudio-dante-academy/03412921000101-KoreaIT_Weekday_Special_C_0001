@@ -123,12 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
+    <ClCompile Include="Classes\Example\Example_01\E01Example_01.c">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
-    <ClCompile Include="Classes\Example\Example_02\E01Example_02.cpp" />
-    <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp" />
-    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="Classes\Example\Example_02\E01Example_02.c" />
+    <ClCompile Include="Classes\Training\Training_01\T01Training_01.c" />
+    <ClCompile Include="Classes\Training\Training_02\T01Training_02.c" />
+    <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
@@ -143,6 +144,7 @@
     <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="Classes\Training\Training_02\T01Training_02.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

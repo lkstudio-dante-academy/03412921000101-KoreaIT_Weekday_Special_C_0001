@@ -46,6 +46,7 @@
 #include "Classes/Example/Example_02/E01Example_02.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
+#include "Classes/Training/Training_02/T01Training_02.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -72,7 +73,7 @@
 * 가능하다.)
 *
 * C/C++ 주석 종류
-* - 단일 행 주석			<- // 기호 사용
+* - 단일 행 주석 (//)
 * - 다중 행 주석
 *
 * 위와 같이 주석은 2 종류가 존재하기 때문에 주석을 작성하는 상황에 따라 적절한 주석을 활용하면
@@ -105,10 +106,11 @@ int main(int argc, char* args[])
 	* 가능하다.)
 	*/
 #if defined EXAMPLE
-	//E01Example_01(argc, args);
-	E01Example_02(argc, args);
+	E01Example_01(argc, args);
+	//E01Example_02(argc, args);
 #elif defined TRAINING
 	T01Training_01(argc, args);
+	//T01Training_02(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;

@@ -1,15 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Example.cpp" />
-    <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
-      <Filter>Classes\Example\Example_01</Filter>
+    <ClCompile Include="Example.c" />
+    <ClCompile Include="Classes\Example\Example_01\E01Example_01.c">
+      <Filter>Classes\Example\Example_01 %28기초%29</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
+    <ClCompile Include="Classes\Training\Training_01\T01Training_01.c">
       <Filter>Classes\Training\Training_01</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Example\Example_02\E01Example_02.cpp">
-      <Filter>Classes\Example\Example_02</Filter>
+    <ClCompile Include="Classes\Example\Example_02\E01Example_02.c">
+      <Filter>Classes\Example\Example_02 %28자료형%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_02\T01Training_02.c">
+      <Filter>Classes\Training\Training_02</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -25,17 +28,20 @@
     <Filter Include="Classes\Example">
       <UniqueIdentifier>{03331751-379d-4614-ad83-d0173b68113c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_01">
-      <UniqueIdentifier>{1582424a-f9ae-4a69-920e-66b13f7501d0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Training">
       <UniqueIdentifier>{db5b7e05-d5f3-40af-81fe-950ca3ffb165}</UniqueIdentifier>
     </Filter>
     <Filter Include="Classes\Training\Training_01">
       <UniqueIdentifier>{f93bd422-5010-4da8-93db-bad0d828c23a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_02">
+    <Filter Include="Classes\Example\Example_01 %28기초%29">
+      <UniqueIdentifier>{1582424a-f9ae-4a69-920e-66b13f7501d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_02 %28자료형%29">
       <UniqueIdentifier>{dd6171c0-af4d-48e9-a9a6-817a67bc400e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_02">
+      <UniqueIdentifier>{7460c9e8-5955-4d96-85f2-519e206d7b5a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -43,13 +49,16 @@
       <Filter>Classes\Global\Define</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
-      <Filter>Classes\Example\Example_01</Filter>
+      <Filter>Classes\Example\Example_01 %28기초%29</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <Filter>Classes\Training\Training_01</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_02\E01Example_02.h">
-      <Filter>Classes\Example\Example_02</Filter>
+      <Filter>Classes\Example\Example_02 %28자료형%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_02\T01Training_02.h">
+      <Filter>Classes\Training\Training_02</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
