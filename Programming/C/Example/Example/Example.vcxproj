@@ -127,6 +127,10 @@
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
     <ClCompile Include="Classes\Example\Example_02\E01Example_02.c" />
+    <ClCompile Include="Classes\Example\Example_03\E01Example_03.c" />
+    <ClCompile Include="Classes\Example\Example_04\E01Example_04.c" />
+    <ClCompile Include="Classes\Example\Example_05\E01Example_05.c" />
+    <ClCompile Include="Classes\Example\Example_06\E01Example_06.c" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.c" />
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.c" />
     <ClCompile Include="Example.c" />
@@ -138,6 +142,10 @@
     <ClInclude Include="Classes\Example\Example_02\E01Example_02.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="Classes\Example\Example_03\E01Example_03.h" />
+    <ClInclude Include="Classes\Example\Example_04\E01Example_04.h" />
+    <ClInclude Include="Classes\Example\Example_05\E01Example_05.h" />
+    <ClInclude Include="Classes\Example\Example_06\E01Example_06.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>

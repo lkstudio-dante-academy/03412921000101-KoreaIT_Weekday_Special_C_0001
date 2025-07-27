@@ -14,6 +14,18 @@
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.c">
       <Filter>Classes\Training\Training_02</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_03\E01Example_03.c">
+      <Filter>Classes\Example\Example_03 %28데이터 표현 방법%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_04\E01Example_04.c">
+      <Filter>Classes\Example\Example_04 %28연산자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_05\E01Example_05.c">
+      <Filter>Classes\Example\Example_05 %28조건문%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_06\E01Example_06.c">
+      <Filter>Classes\Example\Example_06 %28반복문 - 1%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -43,6 +55,18 @@
     <Filter Include="Classes\Training\Training_02">
       <UniqueIdentifier>{7460c9e8-5955-4d96-85f2-519e206d7b5a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Example\Example_03 %28데이터 표현 방법%29">
+      <UniqueIdentifier>{4d5ef10e-8b07-4a05-92c7-a3814cf1eec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_04 %28연산자%29">
+      <UniqueIdentifier>{5078d518-035d-4c74-9bef-1e22ca28e9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_05 %28조건문%29">
+      <UniqueIdentifier>{3caf4b2c-8372-40c3-b218-a7b6b82eb7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_06 %28반복문 - 1%29">
+      <UniqueIdentifier>{94b664de-2b98-4934-9811-e7ac37da2ecf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -59,6 +83,18 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_02\T01Training_02.h">
       <Filter>Classes\Training\Training_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_03\E01Example_03.h">
+      <Filter>Classes\Example\Example_03 %28데이터 표현 방법%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_04\E01Example_04.h">
+      <Filter>Classes\Example\Example_04 %28연산자%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_05\E01Example_05.h">
+      <Filter>Classes\Example\Example_05 %28조건문%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_06\E01Example_06.h">
+      <Filter>Classes\Example\Example_06 %28반복문 - 1%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

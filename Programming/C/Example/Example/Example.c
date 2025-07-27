@@ -44,6 +44,10 @@
 #if defined EXAMPLE
 #include "Classes/Example/Example_01/E01Example_01.h"
 #include "Classes/Example/Example_02/E01Example_02.h"
+#include "Classes/Example/Example_03/E01Example_03.h"
+#include "Classes/Example/Example_04/E01Example_04.h"
+#include "Classes/Example/Example_05/E01Example_05.h"
+#include "Classes/Example/Example_06/E01Example_06.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -108,6 +112,10 @@ int main(int argc, char* args[])
 #if defined EXAMPLE
 	E01Example_01(argc, args);
 	//E01Example_02(argc, args);
+	//E01Example_03(argc, args);
+	//E01Example_04(argc, args);
+	//E01Example_05(argc, args);
+	//E01Example_06(argc, args);
 #elif defined TRAINING
 	T01Training_01(argc, args);
 	//T01Training_02(argc, args);
