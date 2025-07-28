@@ -48,9 +48,17 @@
 #include "Classes/Example/Example_04/E01Example_04.h"
 #include "Classes/Example/Example_05/E01Example_05.h"
 #include "Classes/Example/Example_06/E01Example_06.h"
+#include "Classes/Example/Example_07/E01Example_07.h"
+#include "Classes/Example/Example_08/E01Example_08.h"
+#include "Classes/Example/Example_09/E01Example_09.h"
+#include "Classes/Example/Example_10/E01Example_10.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
+#include "Classes/Training/Training_03/T01Training_03.h"
+#include "Classes/Training/Training_04/T01Training_04.h"
+#include "Classes/Training/Training_05/T01Training_05.h"
+#include "Classes/Training/Training_06/T01Training_06.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -110,15 +118,23 @@ int main(int argc, char* args[])
 	* 가능하다.)
 	*/
 #if defined EXAMPLE
-	E01Example_01(argc, args);
+	//E01Example_01(argc, args);
 	//E01Example_02(argc, args);
 	//E01Example_03(argc, args);
 	//E01Example_04(argc, args);
 	//E01Example_05(argc, args);
 	//E01Example_06(argc, args);
+	//E01Example_07(argc, args);
+	//E01Example_08(argc, args);
+	E01Example_09(argc, args);
+	//E01Example_10(argc, args);
 #elif defined TRAINING
 	T01Training_01(argc, args);
 	//T01Training_02(argc, args);
+	//T01Training_03(argc, args);
+	//T01Training_04(argc, args);
+	//T01Training_05(argc, args);
+	//T01Training_06(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;

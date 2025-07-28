@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/source-charset: utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,8 +132,16 @@
     <ClCompile Include="Classes\Example\Example_04\E01Example_04.c" />
     <ClCompile Include="Classes\Example\Example_05\E01Example_05.c" />
     <ClCompile Include="Classes\Example\Example_06\E01Example_06.c" />
+    <ClCompile Include="Classes\Example\Example_07\E01Example_07.c" />
+    <ClCompile Include="Classes\Example\Example_08\E01Example_08.c" />
+    <ClCompile Include="Classes\Example\Example_09\E01Example_09.c" />
+    <ClCompile Include="Classes\Example\Example_10\E01Example_10.c" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.c" />
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.c" />
+    <ClCompile Include="Classes\Training\Training_03\T01Training_03.c" />
+    <ClCompile Include="Classes\Training\Training_04\T01Training_04.c" />
+    <ClCompile Include="Classes\Training\Training_05\T01Training_05.c" />
+    <ClCompile Include="Classes\Training\Training_06\T01Training_06.c" />
     <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +155,10 @@
     <ClInclude Include="Classes\Example\Example_04\E01Example_04.h" />
     <ClInclude Include="Classes\Example\Example_05\E01Example_05.h" />
     <ClInclude Include="Classes\Example\Example_06\E01Example_06.h" />
+    <ClInclude Include="Classes\Example\Example_07\E01Example_07.h" />
+    <ClInclude Include="Classes\Example\Example_08\E01Example_08.h" />
+    <ClInclude Include="Classes\Example\Example_09\E01Example_09.h" />
+    <ClInclude Include="Classes\Example\Example_10\E01Example_10.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
@@ -153,6 +166,10 @@
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_02\T01Training_02.h" />
+    <ClInclude Include="Classes\Training\Training_03\T01Training_03.h" />
+    <ClInclude Include="Classes\Training\Training_04\T01Training_04.h" />
+    <ClInclude Include="Classes\Training\Training_05\T01Training_05.h" />
+    <ClInclude Include="Classes\Training\Training_06\T01Training_06.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

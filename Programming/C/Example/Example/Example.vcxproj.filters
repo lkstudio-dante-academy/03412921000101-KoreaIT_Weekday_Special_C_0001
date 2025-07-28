@@ -26,6 +26,30 @@
     <ClCompile Include="Classes\Example\Example_06\E01Example_06.c">
       <Filter>Classes\Example\Example_06 %28반복문 - 1%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_07\E01Example_07.c">
+      <Filter>Classes\Example\Example_07 %28반복문 - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_03\T01Training_03.c">
+      <Filter>Classes\Training\Training_03</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_04\T01Training_04.c">
+      <Filter>Classes\Training\Training_04</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_05\T01Training_05.c">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_06\T01Training_06.c">
+      <Filter>Classes\Training\Training_06</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_08\E01Example_08.c">
+      <Filter>Classes\Example\Example_08 %28배열 - 1%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_09\E01Example_09.c">
+      <Filter>Classes\Example\Example_09 %28배열 - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_10\E01Example_10.c">
+      <Filter>Classes\Example\Example_10 %28문자열%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -67,6 +91,30 @@
     <Filter Include="Classes\Example\Example_06 %28반복문 - 1%29">
       <UniqueIdentifier>{94b664de-2b98-4934-9811-e7ac37da2ecf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Example\Example_07 %28반복문 - 2%29">
+      <UniqueIdentifier>{6b68f0b0-f8bc-4585-a804-e535c291becf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_03">
+      <UniqueIdentifier>{d6111499-dfaa-4b03-92fd-7c38231d3cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_04">
+      <UniqueIdentifier>{b1bcb666-b213-45b1-a473-9906bca61a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_05">
+      <UniqueIdentifier>{e0007f3c-c42c-4cff-ab38-420429a3f718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_06">
+      <UniqueIdentifier>{81e2c369-6fa1-4d66-9e67-145cfb32db8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_08 %28배열 - 1%29">
+      <UniqueIdentifier>{5316d977-5bc9-42fe-9ea2-e3f0f8fcb50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_09 %28배열 - 2%29">
+      <UniqueIdentifier>{b94c5b42-22b8-4f02-a138-f12d41fda633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_10 %28문자열%29">
+      <UniqueIdentifier>{69ecfeef-4aca-48f6-aa2a-e3dd8fa4aafb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -95,6 +143,30 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_06\E01Example_06.h">
       <Filter>Classes\Example\Example_06 %28반복문 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_07\E01Example_07.h">
+      <Filter>Classes\Example\Example_07 %28반복문 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_03\T01Training_03.h">
+      <Filter>Classes\Training\Training_03</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_04\T01Training_04.h">
+      <Filter>Classes\Training\Training_04</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_05\T01Training_05.h">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_06\T01Training_06.h">
+      <Filter>Classes\Training\Training_06</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_08\E01Example_08.h">
+      <Filter>Classes\Example\Example_08 %28배열 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_09\E01Example_09.h">
+      <Filter>Classes\Example\Example_09 %28배열 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_10\E01Example_10.h">
+      <Filter>Classes\Example\Example_10 %28문자열%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

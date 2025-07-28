@@ -17,5 +17,5 @@
 * - 기타 연산자 (조건 연산자, 형변환 연산자, 우선 순위 연산자 등등...)
 */
 
- /** Example 4 */
+/** Example 4 */
 int E01Example_04(int argc, char* args[]);
