@@ -126,8 +126,8 @@ int main(int argc, char* args[])
 	//E01Example_06(argc, args);
 	//E01Example_07(argc, args);
 	//E01Example_08(argc, args);
-	E01Example_09(argc, args);
-	//E01Example_10(argc, args);
+	//E01Example_09(argc, args);
+	E01Example_10(argc, args);
 #elif defined TRAINING
 	T01Training_01(argc, args);
 	//T01Training_02(argc, args);
