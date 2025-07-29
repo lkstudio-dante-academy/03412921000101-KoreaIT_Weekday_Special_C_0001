@@ -74,6 +74,21 @@
     <ClCompile Include="Classes\Example\Example_18\E01Example_18.c">
       <Filter>Classes\Example\Example_18 %28포인터 - 4%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_07\T01Training_07.c">
+      <Filter>Classes\Training\Training_07</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_08\T01Training_08.c">
+      <Filter>Classes\Training\Training_08</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_09\T01Training_09.c">
+      <Filter>Classes\Training\Training_09</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_10\T01Training_10.c">
+      <Filter>Classes\Training\Training_10</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_11\T01Training_11.c">
+      <Filter>Classes\Training\Training_11</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -163,6 +178,21 @@
     <Filter Include="Classes\Example\Example_18 %28포인터 - 4%29">
       <UniqueIdentifier>{5c588c40-db24-419e-911b-863b3bae594b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_07">
+      <UniqueIdentifier>{f1eadcfe-ccf6-414e-b49b-5dd88b24a83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_08">
+      <UniqueIdentifier>{2defbb61-76c5-46e2-811b-f7db3a336d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_09">
+      <UniqueIdentifier>{dfbd2883-6a48-4817-a65f-9a60fac8bf74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_10">
+      <UniqueIdentifier>{fc8e4d32-8aa0-4aaa-8ebe-df216f5075fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_11">
+      <UniqueIdentifier>{4b49a079-db5c-4d85-aa83-0c9deda12990}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -239,6 +269,21 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_18\E01Example_18.h">
       <Filter>Classes\Example\Example_18 %28포인터 - 4%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_07\T01Training_07.h">
+      <Filter>Classes\Training\Training_07</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_08\T01Training_08.h">
+      <Filter>Classes\Training\Training_08</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_09\T01Training_09.h">
+      <Filter>Classes\Training\Training_09</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_10\T01Training_10.h">
+      <Filter>Classes\Training\Training_10</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_11\T01Training_11.h">
+      <Filter>Classes\Training\Training_11</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

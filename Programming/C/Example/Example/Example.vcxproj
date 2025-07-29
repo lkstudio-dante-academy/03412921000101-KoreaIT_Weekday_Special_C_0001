@@ -150,6 +150,11 @@
     <ClCompile Include="Classes\Training\Training_04\T01Training_04.c" />
     <ClCompile Include="Classes\Training\Training_05\T01Training_05.c" />
     <ClCompile Include="Classes\Training\Training_06\T01Training_06.c" />
+    <ClCompile Include="Classes\Training\Training_07\T01Training_07.c" />
+    <ClCompile Include="Classes\Training\Training_08\T01Training_08.c" />
+    <ClCompile Include="Classes\Training\Training_09\T01Training_09.c" />
+    <ClCompile Include="Classes\Training\Training_10\T01Training_10.c" />
+    <ClCompile Include="Classes\Training\Training_11\T01Training_11.c" />
     <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +191,11 @@
     <ClInclude Include="Classes\Training\Training_04\T01Training_04.h" />
     <ClInclude Include="Classes\Training\Training_05\T01Training_05.h" />
     <ClInclude Include="Classes\Training\Training_06\T01Training_06.h" />
+    <ClInclude Include="Classes\Training\Training_07\T01Training_07.h" />
+    <ClInclude Include="Classes\Training\Training_08\T01Training_08.h" />
+    <ClInclude Include="Classes\Training\Training_09\T01Training_09.h" />
+    <ClInclude Include="Classes\Training\Training_10\T01Training_10.h" />
+    <ClInclude Include="Classes\Training\Training_11\T01Training_11.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

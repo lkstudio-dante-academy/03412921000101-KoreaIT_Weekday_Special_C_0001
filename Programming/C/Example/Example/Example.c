@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-#define EXAMPLE
+//#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -59,6 +59,7 @@
 #include "Classes/Training/Training_04/T01Training_04.h"
 #include "Classes/Training/Training_05/T01Training_05.h"
 #include "Classes/Training/Training_06/T01Training_06.h"
+#include "Classes/Training/Training_07/T01Training_07.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -113,6 +114,22 @@
 int main(int argc, char* args[])
 {
 	/*
+	* srand 함수란?
+	* - rand 함수를 통해 난수를 생성하기 위한 초기 (시드) 값을 설정하는 역할을 수행하는 함수를
+	* 의미한다. (+ 즉, srand 함수를 활용하면 rand 함수를 통해 생성되는 난수의 패턴을 변경하는
+	* 것이 가능하다.)
+	* 
+	* 컴퓨터가 생성하는 난수는 의사 난수로서 특정 공식에 의해서 계산 된 결과이다. (+ 즉, 
+	* 공식에 사용 된 초기 값이 동일하다면 항상 똑같은 패턴으로 난수가 생성 된다는 것을 알 수 있다.)
+	* 
+	* 따라서 불규칙한 난수를 생성하기 위해서는 프로그램이 실행 될 때마다 매번 다른 초기 값을
+	* 설정 할 필요가 있으며 이때 주로 활용되는 것이 시간을 사용하는 방법이다. (+ 즉, 시간은
+	* 항상 변화하기 때문에 시간을 활용하면 프로그램을 실행 할 때마다 생성 되는 난수의 패턴을
+	* 변경하는 것이 가능하다.)
+	*/
+	srand((unsigned int)time(NULL));
+
+	/*
 	* 아래와 같이 전처리기 조건문을 활용하면 C/C++ 명령문을 활성 or 비활성화 시키는 것이 가능하다.
 	* (+ 즉, 아래와 같은 구조를 활용하면 특정 플랫폼 or 상황 에서만 동작하는 명령문을 작성하는 것이
 	* 가능하다.)
@@ -129,12 +146,13 @@ int main(int argc, char* args[])
 	//E01Example_09(argc, args);
 	E01Example_10(argc, args);
 #elif defined TRAINING
-	T01Training_01(argc, args);
-	//T01Training_02(argc, args);
+	//T01Training_01(argc, args);
+	T01Training_02(argc, args);
 	//T01Training_03(argc, args);
 	//T01Training_04(argc, args);
 	//T01Training_05(argc, args);
 	//T01Training_06(argc, args);
+	//T01Training_07(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;
