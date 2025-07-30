@@ -52,6 +52,14 @@
 #include "Classes/Example/Example_08/E01Example_08.h"
 #include "Classes/Example/Example_09/E01Example_09.h"
 #include "Classes/Example/Example_10/E01Example_10.h"
+#include "Classes/Example/Example_11/E01Example_11.h"
+#include "Classes/Example/Example_12/E01Example_12.h"
+#include "Classes/Example/Example_13/E01Example_13.h"
+#include "Classes/Example/Example_14/E01Example_14.h"
+#include "Classes/Example/Example_15/E01Example_15.h"
+#include "Classes/Example/Example_16/E01Example_16.h"
+#include "Classes/Example/Example_17/E01Example_17.h"
+#include "Classes/Example/Example_18/E01Example_18.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -60,6 +68,10 @@
 #include "Classes/Training/Training_05/T01Training_05.h"
 #include "Classes/Training/Training_06/T01Training_06.h"
 #include "Classes/Training/Training_07/T01Training_07.h"
+#include "Classes/Training/Training_08/T01Training_08.h"
+#include "Classes/Training/Training_09/T01Training_09.h"
+#include "Classes/Training/Training_10/T01Training_10.h"
+#include "Classes/Training/Training_11/T01Training_11.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -141,18 +153,22 @@ int main(int argc, char* args[])
 	//E01Example_04(argc, args);
 	//E01Example_05(argc, args);
 	//E01Example_06(argc, args);
-	//E01Example_07(argc, args);
+	E01Example_07(argc, args);
 	//E01Example_08(argc, args);
 	//E01Example_09(argc, args);
-	E01Example_10(argc, args);
+	//E01Example_10(argc, args);
 #elif defined TRAINING
 	//T01Training_01(argc, args);
-	T01Training_02(argc, args);
+	//T01Training_02(argc, args);
 	//T01Training_03(argc, args);
 	//T01Training_04(argc, args);
 	//T01Training_05(argc, args);
 	//T01Training_06(argc, args);
 	//T01Training_07(argc, args);
+	//T01Training_08(argc, args);
+	//T01Training_09(argc, args);
+	T01Training_10(argc, args);
+	//T01Training_11(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;

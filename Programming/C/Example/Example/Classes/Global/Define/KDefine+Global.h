@@ -7,6 +7,3 @@
 #include <assert.h>
 #include <limits.h>
 #include <float.h>
-
-#include <Windows.h>
-#include <tchar.h>
