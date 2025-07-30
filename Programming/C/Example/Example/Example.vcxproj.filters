@@ -89,6 +89,21 @@
     <ClCompile Include="Classes\Training\Training_11\T01Training_11.c">
       <Filter>Classes\Training\Training_11</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_12\T01Training_12.c">
+      <Filter>Classes\Training\Training_12</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_13\T01Training_13.c">
+      <Filter>Classes\Training\Training_13</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_14\T01Training_14.c">
+      <Filter>Classes\Training\Training_14</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_15\T01Training_15.c">
+      <Filter>Classes\Training\Training_15</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_16\T01Training_16.c">
+      <Filter>Classes\Training\Training_16</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -193,6 +208,21 @@
     <Filter Include="Classes\Training\Training_11">
       <UniqueIdentifier>{4b49a079-db5c-4d85-aa83-0c9deda12990}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_12">
+      <UniqueIdentifier>{587667dc-3bd9-4b82-a597-d3258a5d0b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_13">
+      <UniqueIdentifier>{c728ec51-6f88-4045-8e30-a0c2360be6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_14">
+      <UniqueIdentifier>{6809198d-73a4-4231-9f8e-1aea8a5f2ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_15">
+      <UniqueIdentifier>{2d0b2a34-2eda-4fbc-bcfe-e06fffaa9338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_16">
+      <UniqueIdentifier>{28488792-6a09-4829-a9f8-b7b59c166048}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -284,6 +314,21 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_11\T01Training_11.h">
       <Filter>Classes\Training\Training_11</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_12\T01Training_12.h">
+      <Filter>Classes\Training\Training_12</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_13\T01Training_13.h">
+      <Filter>Classes\Training\Training_13</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_14\T01Training_14.h">
+      <Filter>Classes\Training\Training_14</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_15\T01Training_15.h">
+      <Filter>Classes\Training\Training_15</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_16\T01Training_16.h">
+      <Filter>Classes\Training\Training_16</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

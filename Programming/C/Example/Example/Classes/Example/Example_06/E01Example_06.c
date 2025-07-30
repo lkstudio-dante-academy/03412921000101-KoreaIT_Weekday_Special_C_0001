@@ -36,10 +36,9 @@ int E01Example_06(int argc, char* args[])
 			 *
 			 * Ex)
 			 * int nVal = 0;
-			 * Scanner oScanner = new Scanner(System.in);
 			 *
 			 * while(1) {
-			 * 		nVal = oScanner.nextInt();
+			 *		scanf("%d", &nVal);
 			 *
 			 * 		// 짝수 일 경우
 			 * 		if(nVal % 2 == 0) {

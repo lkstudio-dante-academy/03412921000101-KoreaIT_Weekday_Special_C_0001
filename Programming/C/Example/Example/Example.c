@@ -72,6 +72,11 @@
 #include "Classes/Training/Training_09/T01Training_09.h"
 #include "Classes/Training/Training_10/T01Training_10.h"
 #include "Classes/Training/Training_11/T01Training_11.h"
+#include "Classes/Training/Training_12/T01Training_12.h"
+#include "Classes/Training/Training_13/T01Training_13.h"
+#include "Classes/Training/Training_14/T01Training_14.h"
+#include "Classes/Training/Training_15/T01Training_15.h"
+#include "Classes/Training/Training_16/T01Training_16.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -169,6 +174,11 @@ int main(int argc, char* args[])
 	//T01Training_09(argc, args);
 	T01Training_10(argc, args);
 	//T01Training_11(argc, args);
+	//T01Training_12(argc, args);
+	//T01Training_13(argc, args);
+	//T01Training_14(argc, args);
+	//T01Training_15(argc, args);
+	//T01Training_16(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;

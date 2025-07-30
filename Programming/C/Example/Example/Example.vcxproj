@@ -103,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/source-charset: utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,6 +156,11 @@
     <ClCompile Include="Classes\Training\Training_09\T01Training_09.c" />
     <ClCompile Include="Classes\Training\Training_10\T01Training_10.c" />
     <ClCompile Include="Classes\Training\Training_11\T01Training_11.c" />
+    <ClCompile Include="Classes\Training\Training_12\T01Training_12.c" />
+    <ClCompile Include="Classes\Training\Training_13\T01Training_13.c" />
+    <ClCompile Include="Classes\Training\Training_14\T01Training_14.c" />
+    <ClCompile Include="Classes\Training\Training_15\T01Training_15.c" />
+    <ClCompile Include="Classes\Training\Training_16\T01Training_16.c" />
     <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +202,11 @@
     <ClInclude Include="Classes\Training\Training_09\T01Training_09.h" />
     <ClInclude Include="Classes\Training\Training_10\T01Training_10.h" />
     <ClInclude Include="Classes\Training\Training_11\T01Training_11.h" />
+    <ClInclude Include="Classes\Training\Training_12\T01Training_12.h" />
+    <ClInclude Include="Classes\Training\Training_13\T01Training_13.h" />
+    <ClInclude Include="Classes\Training\Training_14\T01Training_14.h" />
+    <ClInclude Include="Classes\Training\Training_15\T01Training_15.h" />
+    <ClInclude Include="Classes\Training\Training_16\T01Training_16.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
