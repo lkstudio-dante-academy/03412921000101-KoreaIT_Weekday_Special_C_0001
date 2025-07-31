@@ -3,7 +3,7 @@
 #include "../../Global/Define/KDefine+Global.h"
 
 /*
-* C/C++ 연습 문제 3
+* C 연습 문제 3
 * - 학점 계산하기 (+ if ~ else 조건문, switch ~ case 조건문 활용)
 * - 1 ~ 100 사이의 점수를 입력 받아 해당 점수에 해당하는 학점 출력하기
 *

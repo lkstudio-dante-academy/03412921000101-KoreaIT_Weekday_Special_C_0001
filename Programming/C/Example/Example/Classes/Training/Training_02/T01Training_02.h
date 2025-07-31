@@ -3,7 +3,7 @@
 #include "../../Global/Define/KDefine+Global.h"
 
 /*
-* C/C++ 연습 문제 2
+* C 연습 문제 2
 * - 논리 연산자 결과 출력하기
 * - 논리 연산자를 사용하지 않고 논리 AND 연산자와 논리 OR 연산자 결과 출력하기
 *
