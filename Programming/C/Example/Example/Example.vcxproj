@@ -163,6 +163,9 @@
     <ClCompile Include="Classes\Training\Training_16\T01Training_16.c" />
     <ClCompile Include="Classes\Training\Training_17\T01Training_17.c" />
     <ClCompile Include="Classes\Training\Training_18\T01Training_18.c" />
+    <ClCompile Include="Classes\Training\Training_19\T01Training_19.c" />
+    <ClCompile Include="Classes\Training\Training_20\T01Training_20.c" />
+    <ClCompile Include="Classes\Training\Training_21\T01Training_21.c" />
     <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +214,9 @@
     <ClInclude Include="Classes\Training\Training_16\T01Training_16.h" />
     <ClInclude Include="Classes\Training\Training_17\T01Training_17.h" />
     <ClInclude Include="Classes\Training\Training_18\T01Training_18.h" />
+    <ClInclude Include="Classes\Training\Training_19\T01Training_19.h" />
+    <ClInclude Include="Classes\Training\Training_20\T01Training_20.h" />
+    <ClInclude Include="Classes\Training\Training_21\T01Training_21.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

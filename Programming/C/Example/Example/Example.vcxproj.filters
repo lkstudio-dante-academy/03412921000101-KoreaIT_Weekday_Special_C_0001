@@ -110,6 +110,15 @@
     <ClCompile Include="Classes\Training\Training_18\T01Training_18.c">
       <Filter>Classes\Training\Training_18</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_19\T01Training_19.c">
+      <Filter>Classes\Training\Training_19</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_20\T01Training_20.c">
+      <Filter>Classes\Training\Training_20</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_21\T01Training_21.c">
+      <Filter>Classes\Training\Training_21</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -235,6 +244,15 @@
     <Filter Include="Classes\Training\Training_18">
       <UniqueIdentifier>{d32385cb-1383-47d7-b919-7ec4e6e82c15}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_19">
+      <UniqueIdentifier>{d6199c12-6522-497a-be5a-c62e765d4405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_20">
+      <UniqueIdentifier>{9d9e7da7-3c10-4b3e-8a41-5427577f2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_21">
+      <UniqueIdentifier>{423dfdb5-ed6d-4ea0-aae1-47435c000904}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -347,6 +365,15 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_18\T01Training_18.h">
       <Filter>Classes\Training\Training_18</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_19\T01Training_19.h">
+      <Filter>Classes\Training\Training_19</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_20\T01Training_20.h">
+      <Filter>Classes\Training\Training_20</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_21\T01Training_21.h">
+      <Filter>Classes\Training\Training_21</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

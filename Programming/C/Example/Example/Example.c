@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-#define EXAMPLE
+//#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -77,6 +77,11 @@
 #include "Classes/Training/Training_14/T01Training_14.h"
 #include "Classes/Training/Training_15/T01Training_15.h"
 #include "Classes/Training/Training_16/T01Training_16.h"
+#include "Classes/Training/Training_17/T01Training_17.h"
+#include "Classes/Training/Training_18/T01Training_18.h"
+#include "Classes/Training/Training_19/T01Training_19.h"
+#include "Classes/Training/Training_20/T01Training_20.h"
+#include "Classes/Training/Training_21/T01Training_21.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -182,11 +187,16 @@ int main(int argc, char* args[])
 	//T01Training_09(argc, args);
 	//T01Training_10(argc, args);
 	//T01Training_11(argc, args);
-	T01Training_12(argc, args);
+	//T01Training_12(argc, args);
 	//T01Training_13(argc, args);
 	//T01Training_14(argc, args);
 	//T01Training_15(argc, args);
 	//T01Training_16(argc, args);
+	//T01Training_17(argc, args);
+	//T01Training_18(argc, args);
+	//T01Training_19(argc, args);
+	//T01Training_20(argc, args);
+	T01Training_21(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;
