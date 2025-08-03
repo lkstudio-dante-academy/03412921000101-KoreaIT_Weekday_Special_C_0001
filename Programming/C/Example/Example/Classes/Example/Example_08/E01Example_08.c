@@ -36,7 +36,7 @@ int E01Example_08(int argc, char* args[])
 	* int anValues[5] = { 0 };
 	* int nSize = sizeof(anValues) / sizeof(anValues[0]);
 	* 
-	* 위와 같이 sizeof 키워드에 배열을 명시 할 경우 배열의 바이트 크기가 반환되며
+	* 위와 같이 sizeof 키워드에 배열을 명시 할 경우 배열의 바이트 크기가 반환 되며
 	* 배열의 바이트 크기는 배열 요소의 바이트 크기 * 배열 길이이다.
 	* 
 	* 따라서 배열의 바이트 크기를 배열 요소의 바이트 크기로 나누어주면 배열 길이를 계산하는 것이

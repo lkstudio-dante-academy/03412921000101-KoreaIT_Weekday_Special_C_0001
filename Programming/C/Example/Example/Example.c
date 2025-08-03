@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-//#define EXAMPLE
+#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -117,6 +117,14 @@
 */
 
 /*
+* extern 키워드란?
+* - 다른 파일에 선언 된 전역 변수 등을 가져오는 역할을 수행하는 키워드를 의미한다. (+ 즉, 
+* extern 키워드를 활용하면 다른 파일에 선언 된 전역 변수를 제어하는 것이 가능하다.)
+*/
+extern int g_nVal;
+extern int g_nVal_Static;
+
+/*
 * 메인 함수 (Main Function) 란?
 * - C 로 제작 된 프로그램이 실행 될 때 가장 먼저 호출되는 함수를 의미한다. (+ 즉,
 * 메인 함수가 호출 되었다는 것은 프로그램이 실행 되었다는 것을 의미한다.)
@@ -135,6 +143,14 @@
 /** 메인 함수 */
 int main(int argc, char* args[])
 {
+	g_nVal = 10;
+
+	/*
+	* 아래와 같이 다른 파일에 선언 된 정적 전역 변수에 접근 할 경우 링크 에러가 발생한다. (+ 즉,
+	* 컴파일 단계에서는 에러가 발생하지 않는다는 것을 의미한다.)
+	*/
+	//g_nVal_Static = 20;
+
 	/*
 	* srand 함수란?
 	* - rand 함수를 통해 난수를 생성하기 위한 초기 (시드) 값을 설정하는 역할을 수행하는 함수를
@@ -168,11 +184,11 @@ int main(int argc, char* args[])
 	//E01Example_09(argc, args);
 	//E01Example_10(argc, args);
 	//E01Example_11(argc, args);
-	E01Example_12(argc, args);
+	//E01Example_12(argc, args);
 	//E01Example_13(argc, args);
 	//E01Example_14(argc, args);
 	//E01Example_15(argc, args);
-	//E01Example_16(argc, args);
+	E01Example_16(argc, args);
 	//E01Example_17(argc, args);
 	//E01Example_18(argc, args);
 #elif defined TRAINING
