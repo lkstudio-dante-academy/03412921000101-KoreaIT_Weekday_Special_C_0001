@@ -119,6 +119,15 @@
     <ClCompile Include="Classes\Training\Training_21\T01Training_21.c">
       <Filter>Classes\Training\Training_21</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_22\T01Training_22.c">
+      <Filter>Classes\Training\Training_22</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_23\T01Training_23.c">
+      <Filter>Classes\Training\Training_23</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_19\E01Example_19.c">
+      <Filter>Classes\Example\Example_19 %28포인터 - 5%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -253,6 +262,15 @@
     <Filter Include="Classes\Training\Training_21">
       <UniqueIdentifier>{423dfdb5-ed6d-4ea0-aae1-47435c000904}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_22">
+      <UniqueIdentifier>{e74fee6c-8200-484c-a3ed-923c1259a6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_23">
+      <UniqueIdentifier>{e202a345-1bce-4905-9aa1-268ea1acc26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_19 %28포인터 - 5%29">
+      <UniqueIdentifier>{1bdeb86c-ad5a-461f-80af-aebcb8285f4e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -374,6 +392,15 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_21\T01Training_21.h">
       <Filter>Classes\Training\Training_21</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_22\T01Training_22.h">
+      <Filter>Classes\Training\Training_22</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_23\T01Training_23.h">
+      <Filter>Classes\Training\Training_23</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_19\E01Example_19.h">
+      <Filter>Classes\Example\Example_19 %28포인터 - 5%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

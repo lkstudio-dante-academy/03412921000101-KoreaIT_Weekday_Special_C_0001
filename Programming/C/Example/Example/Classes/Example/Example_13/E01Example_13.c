@@ -1,13 +1,13 @@
 #include "E01Example_13.h"
 
 /** 값을 출력한다 */
-int GetVal_Sum_13(int a_nNumValues, ...);
+int GetVal_Sum_E13(int a_nNumValues, ...);
 
 int E01Example_13(int argc, char* args[])
 {
-	int nVal_SumA = GetVal_Sum_13(3, 1, 2, 3);
-	int nVal_SumB = GetVal_Sum_13(6, 1, 2, 3, 4, 5, 6);
-	int nVal_SumC = GetVal_Sum_13(9, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+	int nVal_SumA = GetVal_Sum_E13(3, 1, 2, 3);
+	int nVal_SumB = GetVal_Sum_E13(6, 1, 2, 3, 4, 5, 6);
+	int nVal_SumC = GetVal_Sum_E13(9, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 	printf("=====> 결과 <=====\n");
 	printf("합계 A : %d\n", nVal_SumA);
@@ -17,7 +17,7 @@ int E01Example_13(int argc, char* args[])
 	return 0;
 }
 
-int GetVal_Sum_13(int a_nNumValues, ...)
+int GetVal_Sum_E13(int a_nNumValues, ...)
 {
 	/*
 	* va_list 란?

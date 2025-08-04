@@ -1,7 +1,7 @@
 #include "E01Example_11.h"
 
 /** 수식 결과를 반환한다 */
-double GetResult_Calc_11(int a_nValA, char a_chOperator, int a_nValB);
+double GetResult_Calc_E11(int a_nValA, char a_chOperator, int a_nValB);
 
 int E01Example_11(int argc, char* args[])
 {
@@ -18,13 +18,13 @@ int E01Example_11(int argc, char* args[])
 	* 입력 데이터를 전달해야한다. (+ 즉, 매개 변수의 개수와 입력 데이터의 개수가 서로 다를 경우
 	* 컴파일 에러가 발생한다는 것을 알 수 있다.)
 	*/
-	double dblResult = GetResult_Calc_11(nValA, chOperator, nValB);
+	double dblResult = GetResult_Calc_E11(nValA, chOperator, nValB);
 	printf("결과 : %lf\n", dblResult);
 
 	return 0;
 }
 
-double GetResult_Calc_11(int a_nValA, char a_chOperator, int a_nValB)
+double GetResult_Calc_E11(int a_nValA, char a_chOperator, int a_nValB)
 {
 	switch(a_chOperator)
 	{

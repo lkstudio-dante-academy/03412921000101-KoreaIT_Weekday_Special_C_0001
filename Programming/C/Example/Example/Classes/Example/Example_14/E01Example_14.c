@@ -1,10 +1,10 @@
 #include "E01Example_14.h"
 
 /** 팩토리얼을 반환한다 */
-int GetFactorial_14(int a_nVal);
+int GetFactorial_E14(int a_nVal);
 
 /** 합계를 반환한다 */
-int GetVal_Sum_14(int a_pnValues[], int a_nSize, int a_nIdx);
+int GetVal_Sum_E14(int a_pnValues[], int a_nSize, int a_nIdx);
 
 /** 피보나치 수를 반환한다 */
 int GetVal_Fibonacci_14(a_nVal);
@@ -16,7 +16,7 @@ int E01Example_14(int argc, char* args[])
 	printf("정수 입력 (팩토리얼) : ");
 	scanf("%d", &nVal_Factorial);
 
-	int nFactorial = GetFactorial_14(nVal_Factorial);
+	int nFactorial = GetFactorial_E14(nVal_Factorial);
 	printf("%d! = %d\n", nVal_Factorial, nFactorial);
 
 	int anValues[10] = { 0 };
@@ -34,7 +34,7 @@ int E01Example_14(int argc, char* args[])
 		printf("%d, ", anValues[i]);
 	}
 
-	int nVal_Sum = GetVal_Sum_14(anValues, nSize, 0);
+	int nVal_Sum = GetVal_Sum_E14(anValues, nSize, 0);
 	printf("\n\n합계 : %d\n", nVal_Sum);
 
 	printf("\n=====> 피보나치 수열 <=====\n");
@@ -49,7 +49,7 @@ int E01Example_14(int argc, char* args[])
 	return 0;
 }
 
-int GetFactorial_14(int a_nVal)
+int GetFactorial_E14(int a_nVal)
 {
 	// 재귀 호출이 불가능 할 경우
 	if(a_nVal <= 0)
@@ -57,10 +57,10 @@ int GetFactorial_14(int a_nVal)
 		return 1;
 	}
 
-	return a_nVal * GetFactorial_14(a_nVal - 1);
+	return a_nVal * GetFactorial_E14(a_nVal - 1);
 }
 
-int GetVal_Sum_14(int a_pnValues[], int a_nSize, int a_nIdx)
+int GetVal_Sum_E14(int a_pnValues[], int a_nSize, int a_nIdx)
 {
 	// 재귀 호출이 불가능 할 경우
 	if(a_nIdx >= a_nSize)
@@ -68,7 +68,7 @@ int GetVal_Sum_14(int a_pnValues[], int a_nSize, int a_nIdx)
 		return 0;
 	}
 
-	return a_pnValues[a_nIdx] + GetVal_Sum_14(a_pnValues, a_nSize, a_nIdx + 1);
+	return a_pnValues[a_nIdx] + GetVal_Sum_E14(a_pnValues, a_nSize, a_nIdx + 1);
 }
 
 int GetVal_Fibonacci_14(a_nVal)

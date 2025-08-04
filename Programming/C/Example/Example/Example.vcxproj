@@ -145,6 +145,7 @@
     <ClCompile Include="Classes\Example\Example_16\E01Example_16.c" />
     <ClCompile Include="Classes\Example\Example_17\E01Example_17.c" />
     <ClCompile Include="Classes\Example\Example_18\E01Example_18.c" />
+    <ClCompile Include="Classes\Example\Example_19\E01Example_19.c" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.c" />
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.c" />
     <ClCompile Include="Classes\Training\Training_03\T01Training_03.c" />
@@ -166,6 +167,8 @@
     <ClCompile Include="Classes\Training\Training_19\T01Training_19.c" />
     <ClCompile Include="Classes\Training\Training_20\T01Training_20.c" />
     <ClCompile Include="Classes\Training\Training_21\T01Training_21.c" />
+    <ClCompile Include="Classes\Training\Training_22\T01Training_22.c" />
+    <ClCompile Include="Classes\Training\Training_23\T01Training_23.c" />
     <ClCompile Include="Example.c" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +194,7 @@
     <ClInclude Include="Classes\Example\Example_16\E01Example_16.h" />
     <ClInclude Include="Classes\Example\Example_17\E01Example_17.h" />
     <ClInclude Include="Classes\Example\Example_18\E01Example_18.h" />
+    <ClInclude Include="Classes\Example\Example_19\E01Example_19.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
@@ -217,6 +221,8 @@
     <ClInclude Include="Classes\Training\Training_19\T01Training_19.h" />
     <ClInclude Include="Classes\Training\Training_20\T01Training_20.h" />
     <ClInclude Include="Classes\Training\Training_21\T01Training_21.h" />
+    <ClInclude Include="Classes\Training\Training_22\T01Training_22.h" />
+    <ClInclude Include="Classes\Training\Training_23\T01Training_23.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

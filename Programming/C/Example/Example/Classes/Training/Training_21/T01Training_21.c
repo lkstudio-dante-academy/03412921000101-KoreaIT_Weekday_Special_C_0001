@@ -44,5 +44,30 @@ int T01Training_21(int argc, char* args[])
 		printf("\n");
 	}
 
+	int anResult[3][3] = { 0 };
+
+	for(int i = 0; i < nNumRows; ++i)
+	{
+		for(int j = 0; j < nNumCols; ++j)
+		{
+			for(int k = 0; k < nNumCols; ++k)
+			{
+				anResult[i][j] += anMatrixA[i][k] * anMatrixB[k][j];
+			}
+		}
+	}
+
+	printf("\n=====> 결과 <=====\n");
+
+	for(int i = 0; i < nNumRows; ++i)
+	{
+		for(int j = 0; j < nNumCols; ++j)
+		{
+			printf("%2d, ", anResult[i][j]);
+		}
+
+		printf("\n");
+	}
+
 	return 0;
 }

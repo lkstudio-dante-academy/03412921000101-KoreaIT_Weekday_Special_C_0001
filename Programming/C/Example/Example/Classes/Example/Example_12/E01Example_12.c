@@ -4,10 +4,10 @@ int g_nVal = 0;
 static int g_nVal_Static = 0;
 
 /** 값을 변경한다 */
-void SetVal_12(int a_nTarget, int a_nVal);
+void SetVal_E12(int a_nTarget, int a_nVal);
 
 /** 값을 증가 시킨다 */
-void IncrVal_12(int a_nVal);
+void IncrVal_E12(int a_nVal);
 
 int E01Example_12(int argc, char* args[])
 {
@@ -36,18 +36,18 @@ int E01Example_12(int argc, char* args[])
 		printf("지역 변수 : %d\n", nVal);
 	}
 
-	SetVal_12(nVal, 20);
+	SetVal_E12(nVal, 20);
 
 	printf("\n=====> 지역 변수 - B <=====\n");
 	printf("지역 변수 : %d\n\n", nVal);
 
-	IncrVal_12(10);
-	IncrVal_12(10);
+	IncrVal_E12(10);
+	IncrVal_E12(10);
 
 	return 0;
 }
 
-void SetVal_12(int a_nTarget, int a_nVal)
+void SetVal_E12(int a_nTarget, int a_nVal)
 {
 	a_nTarget = a_nVal;
 
@@ -58,7 +58,7 @@ void SetVal_12(int a_nTarget, int a_nVal)
 	//nVal = a_nVal;
 }
 
-void IncrVal_12(int a_nVal)
+void IncrVal_E12(int a_nVal)
 {
 	int nVal = 0;
 	static int nVal_Static = 0;
