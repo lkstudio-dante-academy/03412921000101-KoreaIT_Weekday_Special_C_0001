@@ -128,6 +128,9 @@
     <ClCompile Include="Classes\Example\Example_19\E01Example_19.c">
       <Filter>Classes\Example\Example_19 %28포인터 - 5%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_24\T01Training_24.c">
+      <Filter>Classes\Training\Training_24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -271,6 +274,9 @@
     <Filter Include="Classes\Example\Example_19 %28포인터 - 5%29">
       <UniqueIdentifier>{1bdeb86c-ad5a-461f-80af-aebcb8285f4e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_24">
+      <UniqueIdentifier>{8fb8c100-e7ec-4850-bc10-832371b1e636}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -401,6 +407,9 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_19\E01Example_19.h">
       <Filter>Classes\Example\Example_19 %28포인터 - 5%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_24\T01Training_24.h">
+      <Filter>Classes\Training\Training_24</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

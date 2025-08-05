@@ -74,5 +74,5 @@ void IncrVal_E12(int a_nVal)
 	printf("정적 지역 변수 : %d\n\n", nVal_Static);
 
 	printf("전역 변수 : %d\n", g_nVal);
-	printf("정적 지역 변수 : %d\n\n", g_nVal_Static);
+	printf("정적 전역 변수 : %d\n\n", g_nVal_Static);
 }

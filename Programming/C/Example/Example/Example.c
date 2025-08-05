@@ -84,6 +84,7 @@
 #include "Classes/Training/Training_21/T01Training_21.h"
 #include "Classes/Training/Training_22/T01Training_22.h"
 #include "Classes/Training/Training_23/T01Training_23.h"
+#include "Classes/Training/Training_24/T01Training_24.h"
 #endif // #if defined EXAMPLE
 
 /*
@@ -216,7 +217,8 @@ int main(int argc, char* args[])
 	//T01Training_20(argc, args);
 	//T01Training_21(argc, args);
 	//T01Training_22(argc, args);
-	T01Training_23(argc, args);
+	//T01Training_23(argc, args);
+	T01Training_24(argc, args);
 #endif // #if defined EXAMPLE
 
 	return 0;
