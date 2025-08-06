@@ -131,6 +131,9 @@
     <ClCompile Include="Classes\Training\Training_24\T01Training_24.c">
       <Filter>Classes\Training\Training_24</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_25\T01Training_25.c">
+      <Filter>Classes\Training\Training_25</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -277,6 +280,9 @@
     <Filter Include="Classes\Training\Training_24">
       <UniqueIdentifier>{8fb8c100-e7ec-4850-bc10-832371b1e636}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_25">
+      <UniqueIdentifier>{58a12b18-0f7e-4f89-89e0-9d32748526dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -410,6 +416,9 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_24\T01Training_24.h">
       <Filter>Classes\Training\Training_24</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_25\T01Training_25.h">
+      <Filter>Classes\Training\Training_25</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

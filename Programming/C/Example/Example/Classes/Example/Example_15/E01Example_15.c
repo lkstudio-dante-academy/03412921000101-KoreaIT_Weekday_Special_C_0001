@@ -20,8 +20,9 @@ int E01Example_15(int argc, char* args[])
 	printf("변수 A (%p, %p) : %d, %d\n", &nValA, pnValA, nValA, *pnValA);
 	printf("변수 B (%p, %p) : %d, %d\n", &nValB, pnValB, nValB, *pnValB);
 
-	pnValA = &nValB;
-	pnValB = &nValA;
+	int* pnTemp = pnValA;
+	pnValA = pnValB;
+	pnValB = pnTemp;
 
 	*pnValA = 30;
 	*pnValB = 40;
