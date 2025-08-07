@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-//#define EXAMPLE
+#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -60,6 +60,7 @@
 #include "Classes/Example/Example_16/E01Example_16.h"
 #include "Classes/Example/Example_17/E01Example_17.h"
 #include "Classes/Example/Example_18/E01Example_18.h"
+#include "Classes/Example/Example_19/E01Example_19.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -192,9 +193,10 @@ int main(int argc, char* args[])
 	//E01Example_13(argc, args);
 	//E01Example_14(argc, args);
 	//E01Example_15(argc, args);
-	E01Example_16(argc, args);
+	//E01Example_16(argc, args);
 	//E01Example_17(argc, args);
 	//E01Example_18(argc, args);
+	E01Example_19(argc, args);
 #elif defined TRAINING
 	//T01Training_01(argc, args);
 	//T01Training_02(argc, args);

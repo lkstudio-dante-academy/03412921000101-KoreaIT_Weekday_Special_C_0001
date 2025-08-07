@@ -19,7 +19,7 @@
 *		// Do Something
 * }
 * 
-* int (*pfnPtr)(int, int) = &SomeFunc;
+* void (*pfnPtr)(int, int) = &SomeFunc;
 * pfnPtr(10, 20);
 * 
 * 위와 같이 함수 포인터에는 함수의 주소를 할당하는 것이 가능하며 특정 함수를 참조하고 있는
