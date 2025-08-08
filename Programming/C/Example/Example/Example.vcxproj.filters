@@ -140,6 +140,12 @@
     <ClCompile Include="Classes\Example\Example_21\E01Example_21.c">
       <Filter>Classes\Example\Example_21 %28동적 할당 - 2%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_26\T01Training_26.c">
+      <Filter>Classes\Training\Training_26</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_27\T01Training_27.c">
+      <Filter>Classes\Training\Training_27</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -295,6 +301,12 @@
     <Filter Include="Classes\Example\Example_21 %28동적 할당 - 2%29">
       <UniqueIdentifier>{124b051d-a23b-4474-8d67-4bd0deb122d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_26">
+      <UniqueIdentifier>{8dc680ff-9628-4e86-a9c7-2710fd82faa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_27">
+      <UniqueIdentifier>{f46330bd-c266-4b94-a92d-5c7bdf9be4e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -437,6 +449,12 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_21\E01Example_21.h">
       <Filter>Classes\Example\Example_21 %28동적 할당 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_26\T01Training_26.h">
+      <Filter>Classes\Training\Training_26</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_27\T01Training_27.h">
+      <Filter>Classes\Training\Training_27</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
