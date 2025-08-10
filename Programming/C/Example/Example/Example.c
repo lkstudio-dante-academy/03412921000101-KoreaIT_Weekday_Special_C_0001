@@ -63,6 +63,9 @@
 #include "Classes/Example/Example_19/E01Example_19.h"
 #include "Classes/Example/Example_20/E01Example_20.h"
 #include "Classes/Example/Example_21/E01Example_21.h"
+#include "Classes/Example/Example_22/E01Example_22.h"
+#include "Classes/Example/Example_23/E01Example_23.h"
+#include "Classes/Example/Example_24/E01Example_24.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -202,7 +205,10 @@ int main(int argc, char* args[])
 	//E01Example_18(argc, args);
 	//E01Example_19(argc, args);
 	//E01Example_20(argc, args);
-	E01Example_21(argc, args);
+	//E01Example_21(argc, args);
+	E01Example_22(argc, args);
+	//E01Example_23(argc, args);
+	//E01Example_24(argc, args);
 #elif defined TRAINING
 	//T01Training_01(argc, args);
 	//T01Training_02(argc, args);

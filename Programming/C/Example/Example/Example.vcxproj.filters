@@ -146,6 +146,15 @@
     <ClCompile Include="Classes\Training\Training_27\T01Training_27.c">
       <Filter>Classes\Training\Training_27</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_22\E01Example_22.c">
+      <Filter>Classes\Example\Example_22 %28사용자 정의 자료형 - 1%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_23\E01Example_23.c">
+      <Filter>Classes\Example\Example_23 %28사용자 정의 자료형 - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_24\E01Example_24.c">
+      <Filter>Classes\Example\Example_24 %28파일 시스템%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -307,6 +316,15 @@
     <Filter Include="Classes\Training\Training_27">
       <UniqueIdentifier>{f46330bd-c266-4b94-a92d-5c7bdf9be4e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Example\Example_22 %28사용자 정의 자료형 - 1%29">
+      <UniqueIdentifier>{9b6ba7e2-8f18-483c-bb6b-ede4fcbc55ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_23 %28사용자 정의 자료형 - 2%29">
+      <UniqueIdentifier>{4083fec4-4b52-47d3-92ad-aa28235d4fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_24 %28파일 시스템%29">
+      <UniqueIdentifier>{609fc55c-b394-4a4c-a501-dc5bfa4900b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -455,6 +473,21 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_27\T01Training_27.h">
       <Filter>Classes\Training\Training_27</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_22\E01Example_22.h">
+      <Filter>Classes\Example\Example_22 %28사용자 정의 자료형 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_23\E01Example_23.h">
+      <Filter>Classes\Example\Example_23 %28사용자 정의 자료형 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_24\E01Example_24.h">
+      <Filter>Classes\Example\Example_24 %28파일 시스템%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_22\KDefine+Example_22.h">
+      <Filter>Classes\Example\Example_22 %28사용자 정의 자료형 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_23\KDefine+Example_23.h">
+      <Filter>Classes\Example\Example_23 %28사용자 정의 자료형 - 2%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
