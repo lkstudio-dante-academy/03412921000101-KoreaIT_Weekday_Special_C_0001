@@ -21,7 +21,7 @@
 * - #define + 함수 이름 + 매개 변수
 *
 * Ex)
-* #define SOME_MACRO_FUNC(PARAMS_A, PARAMS_B)			((PARAMS_A) + (PARAMS_B))
+* #define SOME_MACRO_FUNC(VAL_A, VAL_B)			((VAL_A) + (VAL_B))
 *
 * 위와 같이 #define 명령어를 활용하면 매크로 상수나 매크로 함수를 구현하는 것이 가능하다.
 *
@@ -30,7 +30,7 @@
 * 전처리기에 의해 명령문이 치환 된다는 것을 알 수 있다.)
 * 
 * Ex)
-* #define SOME_MACRO_FUNC(PARAMS_A, PARAMS_B)			PARAMS_A * PARAMS_B
+* #define SOME_MACRO_FUNC(VAL_A, VAL_B)			VAL_A * VAL_B
 * 
 * int nVal = SOME_MACRO_FUNC(2 + 2, 2 + 2)			<- "2 + 2 * 2 + 2" 로 치환
 * printf("%d\n", nVal);								<- "8" 출력

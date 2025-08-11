@@ -165,10 +165,13 @@
       <Filter>Classes\Example\Example_27 %28자료구조 - 3%29</Filter>
     </ClCompile>
     <ClCompile Include="Classes\Example\Example_28\E01Example_28.c">
-      <Filter>Classes\Example\Example_28 %28알고리즘 - 1%29</Filter>
+      <Filter>Classes\Example\Example_28 %28자료구조 - 4%29</Filter>
     </ClCompile>
     <ClCompile Include="Classes\Example\Example_29\E01Example_29.c">
-      <Filter>Classes\Example\Example_29 %28알고리즘 - 2%29</Filter>
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_30\E01Example_30.c">
+      <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -349,11 +352,14 @@
     <Filter Include="Classes\Example\Example_27 %28자료구조 - 3%29">
       <UniqueIdentifier>{c9ebcc66-9ffc-4cef-9ec0-6d347e0f1af2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_28 %28알고리즘 - 1%29">
-      <UniqueIdentifier>{324d6714-8920-4089-86ec-e20703959c83}</UniqueIdentifier>
+    <Filter Include="Classes\Example\Example_28 %28자료구조 - 4%29">
+      <UniqueIdentifier>{5a8817c0-4ed2-4e6f-a3ae-8b813fa558c0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_29 %28알고리즘 - 2%29">
-      <UniqueIdentifier>{fbecd413-69da-4e60-aabe-b9a34667d0ad}</UniqueIdentifier>
+    <Filter Include="Classes\Example\Example_29 %28자료구조 - 5%29">
+      <UniqueIdentifier>{785abd03-a6f6-471f-a95f-deffe7f0e856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_30 %28자료구조 - 6%29">
+      <UniqueIdentifier>{238ab6bc-7d06-4f2c-902e-409eb37c49bc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -532,10 +538,13 @@
       <Filter>Classes\Example\Example_27 %28자료구조 - 3%29</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_28\E01Example_28.h">
-      <Filter>Classes\Example\Example_28 %28알고리즘 - 1%29</Filter>
+      <Filter>Classes\Example\Example_28 %28자료구조 - 4%29</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_29\E01Example_29.h">
-      <Filter>Classes\Example\Example_29 %28알고리즘 - 2%29</Filter>
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_30\E01Example_30.h">
+      <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

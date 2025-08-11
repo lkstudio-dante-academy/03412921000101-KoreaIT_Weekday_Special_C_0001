@@ -201,10 +201,8 @@ void PrintMembers_All_T27(STManager_Member_T27* a_pstManager)
 
 	for(int i = 0; i < a_pstManager->m_nNumMembers; ++i)
 	{
-		STMember_T27 stMember = a_pstManager->m_pstMembers[i];
-
-		printf("이름 : %s\n", stMember.m_szName);
-		printf("전화 번호 : %s\n\n", stMember.m_szPNumber);
+		printf("이름 : %s\n", a_pstManager->m_pstMembers[i].m_szName);
+		printf("전화 번호 : %s\n\n", a_pstManager->m_pstMembers[i].m_szPNumber);
 	}
 }
 

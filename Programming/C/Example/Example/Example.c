@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-//#define EXAMPLE
+#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -71,6 +71,7 @@
 #include "Classes/Example/Example_27/E01Example_27.h"
 #include "Classes/Example/Example_28/E01Example_28.h"
 #include "Classes/Example/Example_29/E01Example_29.h"
+#include "Classes/Example/Example_30/E01Example_30.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -104,7 +105,7 @@
 /*
 * C 로 작성 된 파일 종류
 * - 헤더 (Header) 파일			<- .h 확장자 사용
-* - 소스 (Source) 파일			<- .c or .cpp 확장자 사용
+* - 소스 (Source) 파일			<- .c 확장자 사용
 *
 * 헤더 (Header) 파일이란?
 * - C 로 작성 된 명령문의 정보를 다른 파일에 공유하기 위한 목적으로 작성하는 파일을 의미한다.
@@ -219,6 +220,7 @@ int main(int argc, char* args[])
 	//E01Example_27(argc, args);
 	//E01Example_28(argc, args);
 	//E01Example_29(argc, args);
+	//E01Example_30(argc, args);
 #elif defined TRAINING
 	//T01Training_01(argc, args);
 	//T01Training_02(argc, args);
