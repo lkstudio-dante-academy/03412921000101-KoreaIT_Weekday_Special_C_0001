@@ -151,6 +151,11 @@
     <ClCompile Include="Classes\Example\Example_22\E01Example_22.c" />
     <ClCompile Include="Classes\Example\Example_23\E01Example_23.c" />
     <ClCompile Include="Classes\Example\Example_24\E01Example_24.c" />
+    <ClCompile Include="Classes\Example\Example_25\E01Example_25.c" />
+    <ClCompile Include="Classes\Example\Example_26\E01Example_26.c" />
+    <ClCompile Include="Classes\Example\Example_27\E01Example_27.c" />
+    <ClCompile Include="Classes\Example\Example_28\E01Example_28.c" />
+    <ClCompile Include="Classes\Example\Example_29\E01Example_29.c" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.c" />
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.c" />
     <ClCompile Include="Classes\Training\Training_03\T01Training_03.c" />
@@ -211,6 +216,11 @@
     <ClInclude Include="Classes\Example\Example_23\E01Example_23.h" />
     <ClInclude Include="Classes\Example\Example_23\KDefine+Example_23.h" />
     <ClInclude Include="Classes\Example\Example_24\E01Example_24.h" />
+    <ClInclude Include="Classes\Example\Example_25\E01Example_25.h" />
+    <ClInclude Include="Classes\Example\Example_26\E01Example_26.h" />
+    <ClInclude Include="Classes\Example\Example_27\E01Example_27.h" />
+    <ClInclude Include="Classes\Example\Example_28\E01Example_28.h" />
+    <ClInclude Include="Classes\Example\Example_29\E01Example_29.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
@@ -242,6 +252,7 @@
     <ClInclude Include="Classes\Training\Training_24\T01Training_24.h" />
     <ClInclude Include="Classes\Training\Training_25\T01Training_25.h" />
     <ClInclude Include="Classes\Training\Training_26\T01Training_26.h" />
+    <ClInclude Include="Classes\Training\Training_27\KDefine+Training_27.h" />
     <ClInclude Include="Classes\Training\Training_27\T01Training_27.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

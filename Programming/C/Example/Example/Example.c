@@ -38,7 +38,7 @@
 * 위와 같이 #define 명령어를 이용해서 심볼을 정의하고 나면 해당 심볼을 전처리기 조건문에
 * 활용하는 것이 가능하다. (+ 즉, 조건에 따라 특정 명령문을 활성 or 비활성화 시키는 것이 가능하다.)
 */
-#define EXAMPLE
+//#define EXAMPLE
 #define TRAINING
 
 #if defined EXAMPLE
@@ -66,6 +66,11 @@
 #include "Classes/Example/Example_22/E01Example_22.h"
 #include "Classes/Example/Example_23/E01Example_23.h"
 #include "Classes/Example/Example_24/E01Example_24.h"
+#include "Classes/Example/Example_25/E01Example_25.h"
+#include "Classes/Example/Example_26/E01Example_26.h"
+#include "Classes/Example/Example_27/E01Example_27.h"
+#include "Classes/Example/Example_28/E01Example_28.h"
+#include "Classes/Example/Example_29/E01Example_29.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -206,9 +211,14 @@ int main(int argc, char* args[])
 	//E01Example_19(argc, args);
 	//E01Example_20(argc, args);
 	//E01Example_21(argc, args);
-	E01Example_22(argc, args);
+	//E01Example_22(argc, args);
 	//E01Example_23(argc, args);
-	//E01Example_24(argc, args);
+	E01Example_24(argc, args);
+	//E01Example_25(argc, args);
+	//E01Example_26(argc, args);
+	//E01Example_27(argc, args);
+	//E01Example_28(argc, args);
+	//E01Example_29(argc, args);
 #elif defined TRAINING
 	//T01Training_01(argc, args);
 	//T01Training_02(argc, args);

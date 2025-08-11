@@ -1,5 +1,7 @@
 #include "T01Training_26.h"
 
+#define ENABLE_REALLOC
+
 /** 합계를 반환한다 */
 int GetVal_Sum_T26(int a_pnValues[], int a_nSize);
 
@@ -26,6 +28,10 @@ int T01Training_26(int argc, char* args[])
 		// 배열이 가득 찼을 경우
 		if(nNumValues >= nSize)
 		{
+#if defined ENABLE_REALLOC
+			nSize *= 2;
+			pnValues = (int*)realloc(pnValues, sizeof(int) * nSize);
+#else
 			int* pnValues_New = (int*)malloc(sizeof(int) * nSize * 2);
 
 			for(int i = 0; i < nNumValues; ++i)
@@ -37,6 +43,7 @@ int T01Training_26(int argc, char* args[])
 
 			nSize *= 2;
 			pnValues = pnValues_New;
+#endif // #if defined ENABLE_REALLOC
 		}
 
 		pnValues[nNumValues++] = nVal;

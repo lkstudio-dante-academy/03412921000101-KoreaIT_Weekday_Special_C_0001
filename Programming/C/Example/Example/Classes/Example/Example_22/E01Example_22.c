@@ -13,11 +13,13 @@ int E01Example_22(int argc, char* args[])
 	stWidgetA.m_nVal = 10;
 	stWidgetA.m_fVal = 3.14f;
 
-	STWidget_E22 stWidgetB = {
+	STWidget_E22 stWidgetB =
+	{
 		20, 3.14f
 	};
 
-	STWidget_E22 stWidgetC = {
+	STWidget_E22 stWidgetC =
+	{
 		.m_fVal = 3.14f, .m_nVal = 30
 	};
 
@@ -34,7 +36,7 @@ int E01Example_22(int argc, char* args[])
 	memset(&stData, 0, sizeof(stData));
 
 	stData.m_nVal = SHRT_MAX;
-	
+
 	printf("\n=====> 공용체 결과 - A <=====\n");
 	printf("정수 : %d\n", stData.m_nVal);
 	printf("실수 : %f\n", stData.m_fVal);

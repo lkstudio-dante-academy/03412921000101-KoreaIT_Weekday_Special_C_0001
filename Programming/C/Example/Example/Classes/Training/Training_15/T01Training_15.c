@@ -6,7 +6,8 @@
 
 int T01Training_15(int argc, char* args[])
 {
-	int anValues[] = {
+	int anValues[] =
+	{
 		1, 2, 3, 4, 5
 	};
 

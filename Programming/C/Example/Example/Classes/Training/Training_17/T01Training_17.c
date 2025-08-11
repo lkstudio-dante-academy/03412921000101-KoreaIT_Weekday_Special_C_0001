@@ -37,7 +37,7 @@ int T01Training_17(int argc, char* args[])
 		anValues[nPos + i] = -1;
 		i += 1;
 	}
-	
+
 	printf("\n=====> 배열 - 치환 후 <=====\n");
 
 	for(int i = 0; i < nSize; ++i)

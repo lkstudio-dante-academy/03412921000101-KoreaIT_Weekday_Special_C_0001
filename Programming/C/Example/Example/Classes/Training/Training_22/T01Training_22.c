@@ -23,20 +23,24 @@ int T01Training_22(int argc, char* args[])
 char GetGrade_T22(int a_nScore)
 {
 	// F 학점 일 경우
-	if (a_nScore < 60) {
+	if(a_nScore < 60)
+	{
 		return 'F';
 	}
 
 	// A 학점 일 경우
-	if (a_nScore >= 90) {
+	if(a_nScore >= 90)
+	{
 		return 'A';
 	}
 	// B 학점 일 경우
-	else if (a_nScore >= 80) {
+	else if(a_nScore >= 80)
+	{
 		return 'B';
 	}
 	// C 학점 일 경우
-	else if (a_nScore >= 70) {
+	else if(a_nScore >= 70)
+	{
 		return 'C';
 	}
 
@@ -46,12 +50,14 @@ char GetGrade_T22(int a_nScore)
 char GetGrade_Detail_T22(int a_nScore)
 {
 	// F 학점 일 경우
-	if (a_nScore < 60) {
+	if(a_nScore < 60)
+	{
 		return '\0';
 	}
 
 	// + 학점 일 경우
-	if (a_nScore >= 100 || a_nScore % 10 >= 7) {
+	if(a_nScore >= 100 || a_nScore % 10 >= 7)
+	{
 		return '+';
 	}
 

@@ -8,7 +8,8 @@
 
 int T01Training_18(int argc, char* args[])
 {
-	int anMatrix[3][3] = {
+	int anMatrix[3][3] =
+	{
 		1, 2, 3, 4, 5, 6, 7, 8, 9
 	};
 

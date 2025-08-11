@@ -22,7 +22,8 @@ int T01Training_23(int argc, char* args[])
 	char szWord[UCHAR_MAX] = "";
 	SetupWord_T23(szWord, szAnswer);
 
-	do {
+	do
+	{
 		PrintWord_T23(szWord);
 		char chLetter = '\0';
 
@@ -31,9 +32,11 @@ int T01Training_23(int argc, char* args[])
 
 		getchar();
 
-		for (int i = 0; i < strlen(szAnswer); ++i) {
+		for(int i = 0; i < strlen(szAnswer); ++i)
+		{
 			// 문자가 다를 경우
-			if (toupper(chLetter) != toupper(szAnswer[i])) {
+			if(toupper(chLetter) != toupper(szAnswer[i]))
+			{
 				continue;
 			}
 
@@ -43,10 +46,11 @@ int T01Training_23(int argc, char* args[])
 		printf("\n");
 
 		// 정답 일 경우
-		if (IsAnswer_T23(szWord, szAnswer)) {
+		if(IsAnswer_T23(szWord, szAnswer))
+		{
 			break;
 		}
-	} while (1);
+	} while(1);
 
 	PrintWord_T23(szWord);
 	printf("프로그램을 종료합니다.\n");
@@ -56,7 +60,8 @@ int T01Training_23(int argc, char* args[])
 
 void SetupAnswer_T23(char a_pszAnswer[])
 {
-	char aszStrings[][UCHAR_MAX] = {
+	char aszStrings[][UCHAR_MAX] =
+	{
 		"Apple",
 		"Google",
 		"Samsung",
@@ -69,11 +74,13 @@ void SetupAnswer_T23(char a_pszAnswer[])
 
 void SetupWord_T23(char a_pszWord[], char a_pszAnswer[])
 {
-	for (int i = 0; i < strlen(a_pszAnswer); ++i) {
+	for(int i = 0; i < strlen(a_pszAnswer); ++i)
+	{
 		a_pszWord[i] = '_';
 	}
 
-	for (int i = 0; i < (int)(strlen(a_pszAnswer) * 0.3f); ++i) {
+	for(int i = 0; i < (int)(strlen(a_pszAnswer) * 0.3f); ++i)
+	{
 		int nIdx = rand() % strlen(a_pszAnswer);
 		a_pszWord[nIdx] = a_pszAnswer[nIdx];
 	}
@@ -86,7 +93,8 @@ int IsAnswer_T23(char a_pszWord[], char a_pszAnswer[])
 
 void PrintWord_T23(char a_pszWord[])
 {
-	for (int i = 0; i < strlen(a_pszWord); ++i) {
+	for(int i = 0; i < strlen(a_pszWord); ++i)
+	{
 		printf("%c ", a_pszWord[i]);
 	}
 

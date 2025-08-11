@@ -1,7 +1,7 @@
 #include "E01Example_16.h"
 
 /** 최소, 최대 값을 반환한다 */
-void GetVal_MinMax_E16(int a_pnValues[], 
+void GetVal_MinMax_E16(int a_pnValues[],
 	int a_nSize, int* a_pnOutVal_Min, int* a_pnOutVal_Max);
 
 /** 값을 교환한다 */
@@ -66,20 +66,20 @@ int E01Example_16(int argc, char* args[])
 }
 
 /*
-* C 에서 함수를 호출 할 때 배열을 입력으로 전달 할 경우 반드시 해당 배열에 대한 길이를 같이 
+* C 에서 함수를 호출 할 때 배열을 입력으로 전달 할 경우 반드시 해당 배열에 대한 길이를 같이
 * 입력으로 전달해야한다. (+ 즉, 함수 내부에서는 배열의 길이를 계산하는 것이 불가능하다.)
-* 
+*
 * C 에서 함수에 입력으로 배열을 전달 할 경우 배열 자체가 아닌 배열의 첫번째 요소를 참조하는
 * 포인터가 전달 된다.
-* 
+*
 * 따라서 함수 내부에서 sizeof 키워드를 통해 배열의 길이를 계산하는 것이 불가능하다. (+ 즉,
 * sizeof 키워드를 통해 계산 된 크기는 배열의 크기가 아니라 포인터의 크기가 계산 된다는 것을
 * 알 수 있다.)
-* 
+*
 * C 에서 함수의 입력으로 배열을 전달하는 것은 구조체를 활용하지 않으면 불가능하기 때문에
 * 함수를 호출 할 때 배열을 입력으로 전달 할 경우 항상 배열의 길이를 같이 전달하는 것이 관례이다.
 */
-void GetVal_MinMax_E16(int a_pnValues[], 
+void GetVal_MinMax_E16(int a_pnValues[],
 	int a_nSize, int* a_pnOutVal_Min, int* a_pnOutVal_Max)
 {
 	*a_pnOutVal_Min = INT_MAX;
@@ -87,10 +87,10 @@ void GetVal_MinMax_E16(int a_pnValues[],
 
 	for(int i = 0; i < a_nSize; ++i)
 	{
-		*a_pnOutVal_Min = (*a_pnOutVal_Min <= a_pnValues[i]) ? 
+		*a_pnOutVal_Min = (*a_pnOutVal_Min <= a_pnValues[i]) ?
 			*a_pnOutVal_Min : a_pnValues[i];
 
-		*a_pnOutVal_Max = (*a_pnOutVal_Max >= a_pnValues[i]) ? 
+		*a_pnOutVal_Max = (*a_pnOutVal_Max >= a_pnValues[i]) ?
 			*a_pnOutVal_Max : a_pnValues[i];
 	}
 }
