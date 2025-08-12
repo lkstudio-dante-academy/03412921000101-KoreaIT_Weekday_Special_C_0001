@@ -173,6 +173,9 @@
     <ClCompile Include="Classes\Example\Example_30\E01Example_30.c">
       <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_28\T01Training_28.c">
+      <Filter>Classes\Training\Training_28</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -361,6 +364,9 @@
     <Filter Include="Classes\Example\Example_30 %28자료구조 - 6%29">
       <UniqueIdentifier>{238ab6bc-7d06-4f2c-902e-409eb37c49bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Training\Training_28">
+      <UniqueIdentifier>{14a8ef91-34f4-40b4-99b4-b06335b2176f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
@@ -545,6 +551,12 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_30\E01Example_30.h">
       <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_28\KDefine+Training_28.h">
+      <Filter>Classes\Training\Training_28</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_28\T01Training_28.h">
+      <Filter>Classes\Training\Training_28</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
