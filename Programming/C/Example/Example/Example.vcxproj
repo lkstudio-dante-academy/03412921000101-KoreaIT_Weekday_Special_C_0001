@@ -152,6 +152,8 @@
     <ClCompile Include="Classes\Example\Example_23\E01Example_23.c" />
     <ClCompile Include="Classes\Example\Example_24\E01Example_24.c" />
     <ClCompile Include="Classes\Example\Example_25\E01Example_25.c" />
+    <ClCompile Include="Classes\Example\Example_25\List_Array_E25.c" />
+    <ClCompile Include="Classes\Example\Example_25\List_Linked_E25.c" />
     <ClCompile Include="Classes\Example\Example_26\E01Example_26.c" />
     <ClCompile Include="Classes\Example\Example_27\E01Example_27.c" />
     <ClCompile Include="Classes\Example\Example_28\E01Example_28.c" />
@@ -219,6 +221,8 @@
     <ClInclude Include="Classes\Example\Example_23\KDefine+Example_23.h" />
     <ClInclude Include="Classes\Example\Example_24\E01Example_24.h" />
     <ClInclude Include="Classes\Example\Example_25\E01Example_25.h" />
+    <ClInclude Include="Classes\Example\Example_25\List_Array_E25.h" />
+    <ClInclude Include="Classes\Example\Example_25\List_Linked_E25.h" />
     <ClInclude Include="Classes\Example\Example_26\E01Example_26.h" />
     <ClInclude Include="Classes\Example\Example_27\E01Example_27.h" />
     <ClInclude Include="Classes\Example\Example_28\E01Example_28.h" />
