@@ -216,10 +216,10 @@ int main(int argc, char* args[])
 	//E01Example_22(argc, args);
 	//E01Example_23(argc, args);
 	//E01Example_24(argc, args);
-	E01Example_25(argc, args);
+	//E01Example_25(argc, args);
 	//E01Example_26(argc, args);
 	//E01Example_27(argc, args);
-	//E01Example_28(argc, args);
+	E01Example_28(argc, args);
 	//E01Example_29(argc, args);
 	//E01Example_30(argc, args);
 #elif defined TRAINING

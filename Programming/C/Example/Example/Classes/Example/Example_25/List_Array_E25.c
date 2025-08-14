@@ -20,7 +20,7 @@ void DestroyList_Array_E25(STList_Array_E25* a_pstList)
 void AddVal_ArrayList_E25(STList_Array_E25* a_pstList, int a_nVal)
 {
 	// 배열이 가득 찼을 경우
-	if(a_pstList->m_nNumValues >= a_pstList->m_nSize)
+	if(a_pstList->m_pnValues >= a_pstList->m_nSize)
 	{
 		Resize_ArrayList_E25(a_pstList, a_pstList->m_nSize * 2);
 	}

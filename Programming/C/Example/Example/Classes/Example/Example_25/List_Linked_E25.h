@@ -26,6 +26,9 @@ void InitList_Linked_E25(STList_Linked_E25* a_pstList);
 /** 연결 리스트를 제거한다 */
 void DestroyList_Linked_E25(STList_Linked_E25* a_pstList);
 
+/** 값을 반환한다 */
+int GetVal_LinkedList_E25(STList_Linked_E25* a_pstList, int a_nIdx);
+
 /** 값을 추가한다 */
 void AddVal_LinkedList_E25(STList_Linked_E25* a_pstList, int a_nVal);
 
@@ -34,6 +37,3 @@ void InsertVal_LinkedList_E25(STList_Linked_E25* a_pstList, int a_nIdx, int a_nV
 
 /** 값을 제거한다 */
 void RemoveVal_LinkedList_E25(STList_Linked_E25* a_pstList, int a_nVal);
-
-/** 값을 탐색한다 */
-int FindVal_LinkedList_E25(STList_Linked_E25* a_pstList, int a_nVal);
