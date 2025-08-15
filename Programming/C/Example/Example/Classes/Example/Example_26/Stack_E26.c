@@ -10,7 +10,7 @@ void InitStack_E26(STStack_E26* a_pstStack)
 
 void DestroyStack_E26(STStack_E26* a_pstStack)
 {
-	free(a_pstStack->m_pnValues);
+	SAFE_FREE(a_pstStack->m_pnValues);
 }
 
 void Push_Stack_E26(STStack_E26* a_pstStack, int a_nVal)

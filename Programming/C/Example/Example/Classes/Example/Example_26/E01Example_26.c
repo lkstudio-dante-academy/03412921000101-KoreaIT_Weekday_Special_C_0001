@@ -8,14 +8,16 @@ int E01Example_26(int argc, char* args[])
 
 	printf("=====> 데이터 입력 순서 <=====\n");
 
-	for (int i = 0; i < 10; ++i) {
+	for(int i = 0; i < 10; ++i)
+	{
 		printf("%d, ", i + 1);
 		Push_Stack_E26(&stStackValues, i + 1);
 	}
 
 	printf("\n\n=====> 스택 <=====\n");
 
-	while (!IsEmpty_Stack_E26(&stStackValues)) {
+	while(!IsEmpty_Stack_E26(&stStackValues))
+	{
 		int nVal = Pop_Stack_E26(&stStackValues);
 		printf("%d, ", nVal);
 	}

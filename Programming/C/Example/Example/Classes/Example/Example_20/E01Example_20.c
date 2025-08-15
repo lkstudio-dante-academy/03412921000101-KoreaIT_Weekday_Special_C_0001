@@ -55,9 +55,9 @@ int E01Example_20(int argc, char* args[])
 
 	printf("\n");
 
-	free(pnVal);
-	free(pfVal);
-	free(pnValues);
+	SAFE_FREE(pnVal);
+	SAFE_FREE(pfVal);
+	SAFE_FREE(pnValues);
 
 	return 0;
 }

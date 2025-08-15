@@ -92,7 +92,7 @@ void InitManager_T27(STManager_Member_T27* a_pstManager)
 
 void DestroyManager_T27(STManager_Member_T27* a_pstManager)
 {
-	free(a_pstManager->m_pstMembers);
+	SAFE_FREE(a_pstManager->m_pstMembers);
 }
 
 void PrintMenu_T27(void)

@@ -25,8 +25,8 @@ int Convert_ToBinary_T24(int a_nVal, char a_pszOutStr_Binary[])
 		return 0;
 	}
 
-	int nIdx = Convert_ToBinary_T24(a_nVal / 2, a_pszOutStr_Binary);
-	a_pszOutStr_Binary[nIdx] = '0' + (a_nVal % 2);
+	int nResult = Convert_ToBinary_T24(a_nVal / 2, a_pszOutStr_Binary);
+	a_pszOutStr_Binary[nResult] = '0' + (a_nVal % 2);
 
-	return nIdx + 1;
+	return nResult + 1;
 }

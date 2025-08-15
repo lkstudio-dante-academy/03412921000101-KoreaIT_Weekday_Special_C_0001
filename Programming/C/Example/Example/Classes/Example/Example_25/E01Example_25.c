@@ -20,8 +20,8 @@ int E01Example_25(int argc, char* args[])
 	{
 		int nVal = rand() % 99 + 1;
 
-		AddVal_ArrayList_E25(&stListValuesA, nVal);
-		AddVal_LinkedList_E25(&stListValuesB, nVal);
+		AddVal_AList_E25(&stListValuesA, nVal);
+		AddVal_LList_E25(&stListValuesB, nVal);
 	}
 
 	printf("=====> 리스트 <=====\n");
@@ -33,8 +33,8 @@ int E01Example_25(int argc, char* args[])
 	printf("\n정수 입력 (추가) : ");
 	scanf("%d", &nVal_Insert);
 
-	InsertVal_ArrayList_E25(&stListValuesA, 0, nVal_Insert);
-	InsertVal_LinkedList_E25(&stListValuesB, 0, nVal_Insert);
+	InsertVal_AList_E25(&stListValuesA, 0, nVal_Insert);
+	InsertVal_LList_E25(&stListValuesB, 0, nVal_Insert);
 
 	printf("\n=====> 리스트 - 추가 후 <=====\n");
 	PrintValues_ArrayList_E25(&stListValuesA);
@@ -45,8 +45,8 @@ int E01Example_25(int argc, char* args[])
 	printf("\n정수 입력 (제거) : ");
 	scanf("%d", &nVal_Remove);
 
-	RemoveVal_ArrayList_E25(&stListValuesA, nVal_Remove);
-	RemoveVal_LinkedList_E25(&stListValuesB, nVal_Remove);
+	RemoveVal_AList_E25(&stListValuesA, nVal_Remove);
+	RemoveVal_LList_E25(&stListValuesB, nVal_Remove);
 
 	printf("\n=====> 리스트 - 제거 후 <=====\n");
 	PrintValues_ArrayList_E25(&stListValuesA);
@@ -72,7 +72,7 @@ void PrintValues_LinkedList_E25(STList_Linked_E25* a_pstList)
 {
 	for(int i = 0; i < a_pstList->m_nNumValues; ++i)
 	{
-		int nVal = GetVal_LinkedList_E25(a_pstList, i);
+		int nVal = GetVal_LList_E25(a_pstList, i);
 		printf("%d, ", nVal);
 	}
 

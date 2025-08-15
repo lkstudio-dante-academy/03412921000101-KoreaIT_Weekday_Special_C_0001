@@ -191,6 +191,15 @@
     <ClCompile Include="Classes\Example\Example_28\Tree_BSearch_E28.c">
       <Filter>Classes\Example\Example_28 %28자료구조 - 4%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_29\HTable_Chaining_E29.c">
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_29\HTable_OAddress_E29.c">
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_30\Graph_AList_E30.c">
+      <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -587,6 +596,15 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_28\Tree_BSearch_E28.h">
       <Filter>Classes\Example\Example_28 %28자료구조 - 4%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_29\HTable_Chaining_E29.h">
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_29\HTable_OAddress_E29.h">
+      <Filter>Classes\Example\Example_29 %28자료구조 - 5%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_30\Graph_AList_E30.h">
+      <Filter>Classes\Example\Example_30 %28자료구조 - 6%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

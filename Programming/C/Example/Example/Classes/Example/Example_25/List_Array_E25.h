@@ -20,13 +20,10 @@ void InitList_Array_E25(STList_Array_E25* a_pstList);
 void DestroyList_Array_E25(STList_Array_E25* a_pstList);
 
 /** 값을 추가한다 */
-void AddVal_ArrayList_E25(STList_Array_E25* a_pstList, int a_nVal);
+void AddVal_AList_E25(STList_Array_E25* a_pstList, int a_nVal);
 
 /** 값을 추가한다 */
-void InsertVal_ArrayList_E25(STList_Array_E25* a_pstList, int a_nIdx, int a_nVal);
+void InsertVal_AList_E25(STList_Array_E25* a_pstList, int a_nIdx, int a_nVal);
 
 /** 값을 제거한다 */
-void RemoveVal_ArrayList_E25(STList_Array_E25* a_pstList, int a_nVal);
-
-/** 값을 탐색한다 */
-int FindVal_ArrayList_E25(STList_Array_E25* a_pstList, int a_nVal);
+void RemoveVal_AList_E25(STList_Array_E25* a_pstList, int a_nVal);

@@ -17,7 +17,7 @@ int E01Example_23(int argc, char* args[])
 
 EType_Item_E23 GetType_Item_E23(void)
 {
-	return rand() % TYPE_ITEM_MAX_VAL_E23;
+	return rand() % TYPE_ITEM_E23_MAX_VAL;
 }
 
 const char* Convert_ToStr(EType_Item_E23 a_eType)

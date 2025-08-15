@@ -10,7 +10,7 @@ void InitQueue_E27(STQueue_E27* a_pstQueue)
 
 void DestroyQueue_E27(STQueue_E27* a_pstQueue)
 {
-	free(a_pstQueue->m_pnValues);
+	SAFE_FREE(a_pstQueue->m_pnValues);
 }
 
 void Enqueue_Queue_E27(STQueue_E27* a_pstQueue, int a_nVal)
@@ -26,7 +26,7 @@ void Enqueue_Queue_E27(STQueue_E27* a_pstQueue, int a_nVal)
 			pnValues_New[nRear++] = Dequeue_Queue_E27(a_pstQueue);
 		}
 
-		free(a_pstQueue->m_pnValues);
+		SAFE_FREE(a_pstQueue->m_pnValues);
 
 		a_pstQueue->m_nFront = 0;
 		a_pstQueue->m_nRear = nRear;

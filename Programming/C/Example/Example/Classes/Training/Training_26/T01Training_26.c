@@ -39,7 +39,7 @@ int T01Training_26(int argc, char* args[])
 				pnValues_New[i] = pnValues[i];
 			}
 
-			free(pnValues);
+			SAFE_FREE(pnValues);
 
 			nSize *= 2;
 			pnValues = pnValues_New;
@@ -61,7 +61,7 @@ int T01Training_26(int argc, char* args[])
 	printf("\n\n합계 : %d\n", nVal_Sum);
 	printf("평균 : %f\n", nVal_Sum / (float)nNumValues);
 
-	free(pnValues);
+	SAFE_FREE(pnValues);
 	return 0;
 }
 

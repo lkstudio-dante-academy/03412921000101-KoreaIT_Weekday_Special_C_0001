@@ -54,11 +54,11 @@ int E01Example_21(int argc, char* args[])
 
 	for(int i = 0; i < nNumRows; ++i)
 	{
-		free(pnMatrixB[i]);
+		SAFE_FREE(pnMatrixB[i]);
 	}
 
-	free(pnMatrixA);
-	free(pnMatrixB);
+	SAFE_FREE(pnMatrixA);
+	SAFE_FREE(pnMatrixB);
 
 	return 0;
 }

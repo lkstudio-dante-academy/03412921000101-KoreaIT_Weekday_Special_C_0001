@@ -82,7 +82,7 @@ void InitManager_T28(STManager_Account_T28* a_pstManager)
 
 void DestroyManager_T28(STManager_Account_T28* a_pstManager)
 {
-	free(a_pstManager->m_pstAccounts);
+	SAFE_FREE(a_pstManager->m_pstAccounts);
 }
 
 void PrintMenu_T28(void)
